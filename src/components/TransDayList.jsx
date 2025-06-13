@@ -3,8 +3,14 @@ import TransDay from "./TransDay";
 export default function TransDayList({ transLog }) {
   return (
     <div className="flex flex-col gap-1">
-      {transLog.map((trn, index) => {
-        return <TransDay key={index} data={trn} />;
+      {transLog.map((day) => {
+        return (
+          <TransDay
+            key={day.date.split("/").join("-")}
+            date={day.date}
+            transData={day.transactions}
+          />
+        );
       })}
     </div>
   );
