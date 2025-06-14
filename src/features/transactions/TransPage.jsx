@@ -1,5 +1,5 @@
-import MonthSummary from "./MonthSummary";
-import TransDayList from "./TransDayList";
+import MonthSummary from "./components/MonthSummary";
+import TransDayList from "./components/TransDayList";
 
 export default function TransPage({ transLog }) {
   return (

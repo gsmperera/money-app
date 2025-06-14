@@ -1,4 +1,4 @@
-import formatCurrency from "../functions/formatCurrency";
+import formatCurrency from "./../../../functions/formatCurrency";
 
 export default function Transaction({ data }) {
   const amountColor =
@@ -10,10 +10,10 @@ export default function Transaction({ data }) {
   const amountStyles = "flex justify-end " + amountColor;
   return (
     <div className="grid grid-cols-4 pt-1">
-      <div>{data.category.main}</div>
+      <div className="text-sm text-slate-500">{data.category.main}</div>
       <div className="col-span-2">
-        <div>{data.description}</div>
-        <div>{data.account}</div>
+        <div className="text-md text-slate-900">{data.description}</div>
+        <div className="text-sm text-slate-500">{data.account}</div>
       </div>
       <div className={amountStyles}>{formatCurrency(data.amount)}</div>
     </div>

@@ -1,4 +1,4 @@
-import TransPage from "./components/TransPage";
+import TransPage from "./features/transactions/TransPage";
 import { transactionData } from "./assets/sample-transactions";
 
 export default function App() {

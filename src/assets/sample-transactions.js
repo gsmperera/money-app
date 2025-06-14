@@ -136,7 +136,7 @@ export const transactionData = [
     ],
   },
   {
-    date: "2025-06-14",
+    date: "2025-06-09",
     transactions: [
       {
         type: "expense",
@@ -147,7 +147,7 @@ export const transactionData = [
         account: "Credit Card",
         amount: 4500.0,
         description: "Bought new shirt and jeans",
-        id: "2025-06-14-12",
+        id: "2025-06-09-12",
       },
       {
         type: "expense",
@@ -158,7 +158,7 @@ export const transactionData = [
         account: "Com expenses",
         amount: 3100.0,
         description: "CEB monthly bill",
-        id: "2025-06-14-13",
+        id: "2025-06-09-13",
       },
       {
         type: "income",
@@ -169,7 +169,7 @@ export const transactionData = [
         account: "Com investment",
         amount: 1750.0,
         description: "Quarterly dividend from CSE shares",
-        id: "2025-06-14-14",
+        id: "2025-06-09-14",
       },
     ],
   },

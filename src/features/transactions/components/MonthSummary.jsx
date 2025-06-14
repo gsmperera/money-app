@@ -1,4 +1,4 @@
-import formatCurrency from "../functions/formatCurrency";
+import formatCurrency from "./../../../functions/formatCurrency";
 
 export default function MonthSummary({ transLog }) {
   const income = transLog.reduce((totalIncome, day) => {

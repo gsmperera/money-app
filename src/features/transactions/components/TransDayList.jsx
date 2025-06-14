@@ -6,7 +6,7 @@ export default function TransDayList({ transLog }) {
       {transLog.map((day) => {
         return (
           <TransDay
-            key={day.date.split("/").join("-")}
+            key={day.date}
             date={day.date}
             transData={day.transactions}
           />
